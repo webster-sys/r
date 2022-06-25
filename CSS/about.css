@@ -1,0 +1,148 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+:root {
+
+    --primary: #E0B0F0;
+    --secondary: #e8e8e8;
+    --tertiary: #101010;
+}
+
+
+.section-one {
+
+    height: 100%;
+    width: 100%;
+    background: var(--tertiary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 0in;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+
+}
+
+.container {
+
+
+    margin: 20px 0px;
+    height: 80%;
+    width: 90%;
+    display: flex;
+    align-items: left;
+    text-align: left;
+}
+
+.container p{
+
+    color: var(--secondary);
+    font-size: 2em;
+
+}
+
+.container a {
+
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.line {
+
+    width: 100%;
+    height: 0.1rem;
+    background: var(--primary);
+}
+
+.footer {
+
+    width: 100%;
+    height: 25vh;
+    background: var(--tertiary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social{
+
+    width: 90%;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.social li{
+
+    color: var(--secondary);
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.social li a{
+
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+    background: linear-gradient( to bottom, transparent 50%, #E0B0F0);
+    color: var(--secondary);
+
+}
+
+.social li a:hover{
+
+    color: var(--primary);
+    background: transparent;
+    transition: 0.3s ease;
+
+}
+
+.copyright {
+
+    width: 90%;
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.copyright p {
+
+    color: var(--secondary);
+    font-size: 1em;
+    padding-top: 10px;
+ }
+
+ .copyright a {
+
+    color: var(--secondary);
+    font-size: 0.8em;
+    padding: 10px 0px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .container p {
+
+        font-size: 1.2em;
+    }
+  
+}
+
