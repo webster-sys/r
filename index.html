@@ -12,6 +12,9 @@
     <title>Tanishq Gupta</title>
 </head>
 <body>
+
+    <div id="preloader"></div>
+
     <div class="container">
         <section class="section-one">
             <p>Bonjour, I am</p>
@@ -47,6 +50,10 @@
             <a href="thanks.html">Thanks😋.</a>
         </section>
     </div>
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function() {loader.style.display = "none"})
+    </script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
